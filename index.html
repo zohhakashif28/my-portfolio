@@ -6,170 +6,246 @@
   <title>Zohha Kashif | Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
   <!-- Navigation -->
   <nav>
-    <div class="logo">Zohha Kashif</div>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <div class="logo">Zohha Kashif</div>
+  <ul class="nav-links">
+    <li><a href="#about"><i class="fa-solid fa-feather"></i> About</a></li>
+    <li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+    <li><a href="#skills"><i class="fa-solid fa-code"></i> Skills</a></li>
+    <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+    <li><a href="#inprocess"><i class="fa-solid fa-spinner"></i> In Process</a></li>
+    <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+
+  </ul>
+</nav>
 
   <!-- Hero Section -->
-<section class="hero">
-  <div class="hero-container">
+<section id="about" class="hero">
+    <div class="hero-container">
 
     <div class="hero-image">
-      <img src="profile.jpg" alt="Zohha Kashif">
+      <img src="profile.jpg" alt="Your Name">
     </div>
 
     <div class="hero-text">
-      <h1>Hello, I'm <span>Zohha Kashif</span></h1>
-      <p>Current Student of Bachelors Of Computer Science</p>
-      <a href="#projects" class="btn">View My Work</a>
+      <h1>Zohha Kashif</h1>
+      <h3><i class="fa-solid fa-laptop-code"></i> Computer Science Student</h3>
+      <p>Passionate about Software Development & Problem Solving</p>
+      <a href="#contact" class="btn">Contact Me</a>
     </div>
 
   </div>
 </section>
 
+<section id="about" class="section light about-block">
+  <h2><i class="fa-solid fa-bullseye"></i> About Me</h2>
 
-  <!-- Objective -->
-  <section id="about" class="section">
-  <h2>Objective</h2>
-  <ul class="objective-list">
-    <li>Committed to continuous learning and staying updated with emerging technologies.</li>
-    <li>Seeking opportunities to apply academic knowledge to real-world software development projects.</li>
-    <li>Developing strong problem-solving and analytical skills.</li>
-    <li>Enhancing technical expertise in programming and software engineering.</li>
-    <li>Aiming to contribute effectively in a collaborative and growth-oriented organization.</li>
-    <li>Focused on building scalable, efficient, and user-friendly software solutions.</li>
-    <li>Improving teamwork, communication, and project management skills.</li>
-  </ul>
+  <div class="about-box">
+    <p>
+I am a 4th semester Computer Science student at ITU Lahore passionate about building clean and user-friendly applications. I enjoy problem-solving, exploring AI, and working with modern software development technologies. Committed to continuous learning, I actively apply emerging tools and concepts to real-world projects. My goal is to strengthen my technical expertise and analytical skills while contributing to scalable, efficient, and impactful software solutions in a growth-oriented environment.  </div>
 </section>
 
 
+
   <!-- Education -->
-  <section id="education" class="section dark">
-    <h2>Education</h2>
+<section id="education" class="section dark">
+    <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
 
-    <div class="education-block">
-      <h3>Society Public School, Lahore</h3>
-      <p>Matriculation with Computer Science (2020 – 2022)</p>
-      <p>1063/1100 (97%)</p>
-    </div>
+  <div class="card">
+    <h3>Society Public School, Lahore</h3>
+    <p>Matriculation with CS (2020–2022)</p>
+    <p>1063/1100 (97%)</p>
+  </div>
 
-    <div class="education-block">
-      <h3>Kinnaird College for Women University</h3>
-      <p>Intermediate (ICS - Physics) (2022 – 2024)</p>
-      <p>1068/1200 (89%)</p>
-    </div>
+  <div class="card">
+    <h3>Kinnaird College</h3>
+    <p>ICS-Physics (2022–2024)</p>
+    <p>1068/1200 (89%)</p>
+  </div>
 
-    <!-- University Education -->
-    <div class="education-block">
-      <h3>ITU, Arfa Kareem Tower</h3>
-      <p>Bachelor in Computer Science (2024 – Current, Semester 4)</p>
-    </div>
+  <div class="card">
+    <h3>ITU – Arfa Kareem Tower</h3>
+    <p>Bachelor in Computer Science (2024 – Current, Semester 4)</p>
+  </div>
+</section>
 
-    <!-- Subjects Block -->
-    <div class="subjects-block">
-      <h3>Main Subjects Studied</h3>
-      <ul>
-        <li>Programming Fundamentals</li>
-        <li>Database</li>
-        <li>Object Oriented Programming</li>
-        <li>Mobile Application</li>
-        <li>Digital Logic Design</li>
-        <li>Artificial Intelligence</li>
-        <li>Data Structures</li>
-        <li>Software Engineering – In Process</li>
-        <li>Computer Organization & Assembly Language – In Process</li>
-        <li>Advanced Database – In Process</li>
-      </ul>
-    </div>
-  </section>
+
 
   <!-- Skills -->
-  <section id="skills" class="section">
-    <h2>Skills</h2>
+<section id="skills" class="section dark">
 
-    <div class="skills-container">
-      <div class="skill">C++</div>
-      <div class="skill">SQL</div>
-      <div class="skill">HTML</div>
-      <div class="skill">CSS</div>
-      <div class="skill">Python</div>
-      <div class="skill">Flutter</div>
+  <h2><i class="fa-solid fa-code"></i> Technical Skills</h2>
+
+  <div class="skills-layout">
+
+    <!-- LEFT SIDE -->
+    <div class="skills-left">
+
+      <h3><i class="fa-solid fa-code"></i> Languages</h3>
+      <div class="skills-container">
+        <div class="skill">C++</div>
+        <div class="skill">Python</div>
+        <div class="skill">C#</div>
+        <div class="skill">SQL</div>
+        <div class="skill">HTML5 / CSS3</div>
+        <div class="skill">Dart</div>
+        <div class="skill">PHP</div>
+        <div class="skill">Assembly</div>
+      </div>
+
+      <h3><i class="fa-solid fa-layer-group"></i> Frameworks & Tools</h3>
+      <div class="skills-container">
+        <div class="skill">Flutter</div>
+        <div class="skill">Firebase</div>
+        <div class="skill">Bootstrap</div>
+        <div class="skill">Flask</div>
+        <div class="skill">PostgreSQL</div>
+        <div class="skill">.NET(c#)</div>
+      </div>
+
+      <h3><i class="fa-solid fa-book"></i> Core Coursework</h3>
+      <div class="skills-container">
+        <div class="skill">Programming Fundamentals</div>
+        <div class="skill">Mobile Application</div>
+        <div class="skill">Digital Logic Design</div>
+        <div class="skill">Data Structures</div>
+        <div class="skill">OOP</div>
+        <div class="skill">Artificial Intelligence</div>
+        <div class="skill">Computer Networks</div>
+        <div class="skill">Database Systems</div>
+        <div class="skill">Computer Org and Assemble Language</div>
+        <div class="skill">Software Engineering -in process</div>
+        <div class="skill">Advance Database - in process</div>
+
+      </div>
+
     </div>
 
-    <h3 style="margin-top:40px;">Languages</h3>
-    <div class="skills-container">
-      <div class="skill">English</div>
-      <div class="skill">Urdu</div>
-    </div>
-  </section>
+    <!-- RIGHT SIDE -->
+    <div class="skills-right">
 
+      <h3><i class="fa-solid fa-globe"></i> Natural Languages</h3>
+      <div class="skills-container center">
+        <div class="skill">Urdu (Native)</div>
+        <div class="skill">English (C1)</div>
+      </div>
+
+    
+    <h3><i class="fa-solid fa-microchip"></i> Currently Exploring</h3>
+      <div class="skills-container center">
+      <div class="skill">Analysis of Algorithms</div>
+      <div class="skill">Full Stack web</div>
+    </div>
+  </div>
+</section>
+
+<section id="highlights" class="section light">
+  <h2><i class="fa-solid fa-star"></i> Technical Highlights</h2>
+
+  <div class="projects-container">
+
+    <div class="project-card">
+      <h3>Competitive Programming Experience</h3>
+      <p>Participated in 3+ national-level coding competitions, strengthening problem-solving and analytical skills under time constraints.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Web Development Training</h3>
+      <p>Completed a comprehensive Web Development course covering HTML, CSS, JavaScript, and fundamental backend concepts.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Self-Learning & Skill Growth</h3>
+      <p>Actively explored and practiced new tools and technologies beyond academic requirements to enhance technical proficiency.</p>
+    </div>
+
+  </div>
+</section>
   <!-- Projects -->
   <section id="projects" class="section dark">
-    <h2>Projects</h2>
+  <h2>Projects</h2>
 
-    <div class="projects-container">
+  <div class="projects-container">
 
-      <div class="project-card">
-        <h3>Chess Project</h3>
-        <p>Implemented a complete chess game with core logic and gameplay mechanics.</p>
-      </div>
-
-      <div class="project-card">
-        <h3>Movie Streaming Database System</h3>
-        <p>Designed ERD and implemented SQL queries for a subscription-based movie platform.</p>
-      </div>
-
-      <div class="project-card">
-        <h3>Dos Shell And Text Editor</h3>
-        <p>Implemented Dos shell and text editor in c++.</p>
-      </div>
-
-      <div class="project-card">
-        <h3>Fakebook</h3>
-        <p>Implemented facebook style project fakebook (in c++) with both frontend and backend.</p>
-      </div>
-
-      <div class="project-card">
-        <h3>Car Market Place App</h3>
-        <p>Implemented PAKwheels style app in flutter language.</p>
-      </div>
-
-      <div class="project-card">
-        <h3>Token Number Display System</h3>
-        <p>Implemented Token number display system as digital logic design project.</p>
-      </div>
-
-      <div class="project-card">
-        <h3>CodeRush Participation</h3>
-        <p>Participated in competitive programming event CodeRush.</p>
-      </div>
-
-      <div class="project-card">
-        <h3>Hackx Participation</h3>
-        <p>Participated in competitive programming event Hackx.</p>
-      </div>
-
+    <div class="project-card">
+      <h3>Chess Project</h3>
+      <p>Implemented a complete chess game with core logic and gameplay mechanics.</p>
+      <div class="tech-badge">C++</div>
     </div>
-  </section>
+
+    <div class="project-card">
+      <h3>Movie Streaming Database System</h3>
+      <p>Designed ERD and implemented SQL queries for a subscription-based movie platform.</p>
+      <div class="tech-badge">SQL</div>
+    </div>
+
+    <div class="project-card">
+      <h3>Dos Shell And Text Editor</h3>
+      <p>Implemented mini console based DOS shell and text editor with 70 plus commands.</p>
+      <div class="tech-badge">C++,raylib</div>
+    </div>
+
+    <div class="project-card">
+      <h3>Fakebook</h3>
+      <p>Implemented a Facebook-style project (Fakebook) with both frontend and backend using core Data Structures concepts and custom GUI using Raylib: profiles, friend requests, posts.</p>
+      <div class="tech-badge">C++,raylib</div>
+    </div>
+
+    <div class="project-card">
+      <h3>Car Market Place App(MadWheels)</h3>
+      <p>Implemented a PakWheels-style car marketplace app in Flutter.Full‑mobile marketplace for cars: user auth, listings, chat. Implemented real‑time database & image upload..</p>
+      <div class="tech-badge">Flutter,firebase,firestore</div>
+    </div>
+
+    <div class="project-card">
+      <h3>Token Number Display System</h3>
+      <p>Implemented a token number display system like use in government offices , hospitals , banks etc where tokens are used.</p>
+      <div class="tech-badge">Digital Logic</div>
+    </div>
+
+    <div class="project-card">
+    <h3>HugeInt Calculator</h3>
+    <p>
+      Developed an arbitrary-precision integer calculator with a graphical user interface, capable of handling numbers up to 10⁵ digits.
+    </p>
+    <div class="tech-badge">C# • .NET</div>
+  </div>
+
+  </div>
+</section>
+
+  <section id="inprocess" class="section dark">
+  <h2><i class="fa-solid fa-spinner"></i> Projects In Process</h2>
+
+  <div class="projects-featured">
+
+ 
+    <div class="featured-card">
+      <h3>FIR Management System</h3>
+      <p>
+        Developing a full-stack CRUD system for managing crime records with role-based access control, FIR generation, and evidence upload as part of an Advanced Database project.
+        <br><strong>Tech Stack:</strong> React, Flask, PostgreSQL
+      </p>
+    </div>
+    
+  </div>
+</section>
 
   <!-- Contact -->
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Contact Number: 0323-4317233</p>
-    <p>Email: zohhakashif28@gmail.com</p>
-    <p>GitHub: github.com/yourusername</p>
-  </section>
+  <section id="contact" class="section center-section">
+  <h2><i class="fa-solid fa-envelope"></i> Contact</h2>
+
+  <div class="contact-box">
+    <p><i class="fa-solid fa-phone"></i> 0323-4317233</p>
+    <p><i class="fa-solid fa-envelope"></i> zohhakashif28@gmail.com</p>
+    <p><i class="fa-brands fa-github"></i> github.com/yourusername</p>
+  </div>
+</section>
 
   <footer>
     <p>© 2026 Zohha Kashif. All Rights Reserved.</p>
